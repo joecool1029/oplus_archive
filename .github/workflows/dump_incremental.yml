@@ -52,4 +52,4 @@ jobs:
           ~ Incremental OTA ~
           [${{ steps.download.outputs.ota1_ver }}](${{ inputs.ota1 }}) (full) -> [${{ steps.download.outputs.ota2_ver }}](${{ inputs.ota2 }})
         tag: ${{ steps.download.outputs.ota2_ver }}
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.MY_TOKEN }}
